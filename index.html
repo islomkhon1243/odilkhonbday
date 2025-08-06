@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>🎉 Happy 19th, King 👑</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <canvas id="fireworks"></canvas>
+
+  <div class="cursor-trail"></div>
+
+  <div class="emoji-rain"></div>
+
+  <div class="hero">
+    <h1 class="glow-text cyberpunk">Happy 19th Birthday, KING 👑</h1>
+    <p class="subtitle">Ты сияешь ярче Doja, Gaga и The Weeknd вместе 🌟</p>
+    <button onclick="showMessages()">🔥 Взорви поздравления</button>
+  </div>
+  
+  <div id="cake-scene">
+	  <img src="media/cake.png" alt="Торт Одилхон 19" id="cake-image" />
+	</div>
+
+  <div class="poster-row">
+	  <div class="artist-poster">
+		<img src="media/doja.gif" alt="Doja Cat dancing">
+	  </div>
+	  <div class="artist-poster">
+		<img src="media/gaga.gif" alt="Lady Gaga Vogue">
+	  </div>
+	  <div class="artist-poster">
+		<img src="media/weeknd.gif" alt="The Weeknd live">
+	  </div>
+  </div>
+
+  <div class="messages hidden" id="messages">
+    <h2>🎊 Поздравления 🎊</h2>
+    <ul>
+      <li>Ты звезда, а не просто братишка ⭐</li>
+      <li>С каждым годом ты становишься хитрей 🤘</li>
+      <li>Ты создал Roblox-сад? Ты создашь и свой мир 💎</li>
+      <li>Сцена — это ты. Внимание — твоё. 19 — твой уровень 💥</li>
+      <li>Будь Doja Cat в своём деле. Уверенным, ярким, уникальным 🎤</li>
+    </ul>
+  </div>
+  
+	<div class="gallery-container" id="gallery">
+	  <div class="gallery-item">
+		<video src="gallery/1.mp4" autoplay muted loop></video>
+	  </div>
+	  <div class="gallery-item">
+		<img src="gallery/1.jpg" alt="Фото братишки">
+	  </div>
+	  <div class="gallery-item">
+		<video src="gallery/2.mp4" autoplay muted loop></video>
+	  </div>
+	  <div class="gallery-item">
+		<img src="gallery/2.jpg" alt="Друзья">
+	  </div>
+	  <div class="gallery-item">
+		<video src="gallery/3.mp4" autoplay muted loop></video>
+	  </div>
+	  <div class="gallery-item">
+		<img src="gallery/3.jpg" alt="Друзья">
+	  </div>
+	  <div class="gallery-item">
+		<video src="gallery/4.mp4" autoplay muted loop></video>
+	  </div>
+	  <div class="gallery-item">
+		<img src="gallery/5.jpg" alt="Друзья">
+	  </div>
+	  <div class="gallery-item">
+		<video src="gallery/5.mp4" autoplay muted loop></video>
+	  </div>
+	  <div class="gallery-item">
+		<img src="gallery/6.jpg" alt="Друзья">
+	  </div>
+	  <div class="gallery-item">
+		<img src="gallery/7.jpg" alt="Друзья">
+	  </div>
+	  <div class="gallery-item">
+		<img src="gallery/8.jpg" alt="Друзья">
+	  </div>
+	  <div class="gallery-item">
+		<img src="gallery/9.jpg" alt="Друзья">
+	  </div>
+	</div>
+	
+	<div id="live-bot">
+		<div id="chat-box"></div>
+	</div>
+ 
+  <audio id="bday-music" src="media/woman.mp3" preload="auto"></audio>
+  <script src="script.js"></script>
+  <script src="cakescript.js"></script>
+</body>
+</html>
